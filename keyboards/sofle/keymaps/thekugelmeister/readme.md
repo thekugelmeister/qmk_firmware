@@ -2,22 +2,23 @@
 ![SofleKeyboard adjust layer](https://github.com/josefadamcik/SofleKeyboard/raw/master/Images/soflekeyboard_layout_adjust.png)
 
 
-# Default keymap for Sofle Keyboard
+# Based on default keymap for Sofle Keyboard
 
 Layout in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff) and [adjust layer](http://www.keyboard-layout-editor.com/#/gists/4bcf66f922cfd54da20ba04905d56bd4)
 
+# Luna, the keyboard pet
 
-Features:
+[Source](https://github.com/HellSingCoder/qmk_firmware/tree/33d7fa1180d232dcdb024c68a8f4629dced32afb/keyboards/sofle/keymaps/helltm)
 
-- Symmetric modifiers (CMD/Super, Alt/Opt, Ctrl, Shift)
-- Various modes, can be switched (using Adjust layer and the selected one is stored in EEPROM.
-- Modes for Qwerty and Colemak support
-- Modes for Mac vs Linux/Win support -> different order of modifiers and different action shortcuts on the "UPPER" layer (the red one in the image). Designed to simplify transtions when switching between operating systems often.
-- The OLED on master half shows selected mode and caps lock state and is rotated.
-- Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
+- Luna reacts to your wpm counter
+    - under 10 wpm she sits
+    - between 10 and 40 wpm she walks
+    - over 40 wpm she runs
+- She will move sneakily if you hold down Ctrl
+- Will bark at people on the internet if you activate Caps Lock!
+- Luna jumps every time you hit Space
 
-
-TODO: document things I changed
+# TODO: document things I changed
 
 Command to compile:
 ```
